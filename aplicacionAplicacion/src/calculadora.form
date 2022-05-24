@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="calculadora">
+  <grid id="27dc6" binding="panelCalculadora" layout-manager="GridLayoutManager" row-count="9" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="1004" height="524"/>
+    </constraints>
+    <properties>
+      <background color="-204877"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="d74ce" class="javax.swing.JButton" binding="raizButton" default-binding="true">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-4247217"/>
+          <font name="DecoType Naskh" size="20" style="1"/>
+          <text value="Raiz"/>
+        </properties>
+      </component>
+      <component id="ca80c" class="javax.swing.JButton" binding="nButton" default-binding="true">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-11045953"/>
+          <font name="DecoType Naskh" size="20" style="1"/>
+          <text value="n!"/>
+        </properties>
+      </component>
+      <component id="1b079" class="javax.swing.JButton" binding="xButton" default-binding="true">
+        <constraints>
+          <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-7422098"/>
+          <font name="DecoType Naskh" size="20" style="1"/>
+          <text value="|x|"/>
+        </properties>
+      </component>
+      <component id="b1e2a" class="javax.swing.JLabel" binding="lbNumero">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-1115649"/>
+          <enabled value="false"/>
+          <font name="DecoType Naskh" size="24" style="1"/>
+          <foreground color="-16777216"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="52830" class="javax.swing.JButton" binding="senXButton" default-binding="true">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-4224726"/>
+          <font name="DecoType Naskh" size="20" style="1"/>
+          <text value="Sen(x)"/>
+        </properties>
+      </component>
+      <component id="b05ab" class="javax.swing.JButton" binding="cosXButton" default-binding="true">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-13779079"/>
+          <font name="DecoType Naskh" size="20" style="1"/>
+          <text value="Cos(x)"/>
+        </properties>
+      </component>
+      <component id="a31b1" class="javax.swing.JButton" binding="tanXButton" default-binding="true">
+        <constraints>
+          <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-16138561"/>
+          <font name="DecoType Naskh" size="20" style="1"/>
+          <text value="Tan(x)"/>
+        </properties>
+      </component>
+      <component id="8bb04" class="javax.swing.JButton" binding="a9Button" default-binding="true">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-16748097"/>
+          <font name="DecoType Naskh" size="20" style="1"/>
+          <text value="9"/>
+        </properties>
+      </component>
+      <component id="43e74" class="javax.swing.JButton" binding="a8Button" default-binding="true">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-4234496"/>
+          <font name="DecoType Naskh" size="20" style="1"/>
+          <text value="8"/>
+        </properties>
+      </component>
+      <component id="e855" class="javax.swing.JButton" binding="a7Button" default-binding="true">
+        <constraints>
+          <grid row="3" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-4254541"/>
+          <font name="DecoType Naskh" size="20" style="1"/>
+          <text value="7"/>
+        </properties>
+      </component>
+      <component id="d6258" class="javax.swing.JButton" binding="a6Button" default-binding="true">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-4236612"/>
+          <font name="DecoType Naskh" size="20" style="1"/>
+          <text value="6"/>
+        </properties>
+      </component>
+      <component id="399a6" class="javax.swing.JButton" binding="a5Button" default-binding="true">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-8144449"/>
+          <font name="DecoType Naskh" size="20" style="1"/>
+          <text value="5"/>
+        </properties>
+      </component>
+      <component id="a5ca0" class="javax.swing.JButton" binding="a4Button" default-binding="true">
+        <constraints>
+          <grid row="4" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-8559681"/>
+          <font name="DecoType Naskh" size="20" style="1"/>
+          <text value="4"/>
+        </properties>
+      </component>
+      <component id="cee12" class="javax.swing.JButton" binding="a3Button" default-binding="true">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-4231371"/>
+          <font name="DecoType Naskh" size="20" style="1"/>
+          <text value="3"/>
+        </properties>
+      </component>
+      <component id="8d26a" class="javax.swing.JButton" binding="a2Button" default-binding="true">
+        <constraints>
+          <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-7126337"/>
+          <font name="DecoType Naskh" size="20" style="1"/>
+          <text value="2"/>
+        </properties>
+      </component>
+      <component id="9fb36" class="javax.swing.JButton" binding="a1Button" default-binding="true">
+        <constraints>
+          <grid row="5" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-4251074"/>
+          <font name="DecoType Naskh" size="20" style="1"/>
+          <text value="1"/>
+        </properties>
+      </component>
+      <component id="5a5fd" class="javax.swing.JButton" binding="PotenciaButton1">
+        <constraints>
+          <grid row="6" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-13686337"/>
+          <font name="DecoType Naskh" size="20" style="1"/>
+          <text value="^"/>
+        </properties>
+      </component>
+      <component id="e959" class="javax.swing.JButton" binding="a0Button" default-binding="true">
+        <constraints>
+          <grid row="6" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-4251074"/>
+          <font name="DecoType Naskh" size="20" style="1"/>
+          <text value="0"/>
+        </properties>
+      </component>
+      <component id="d6f36" class="javax.swing.JButton" binding="puntobutton18">
+        <constraints>
+          <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-16138561"/>
+          <font name="DecoType Naskh" size="20" style="1"/>
+          <text value="."/>
+        </properties>
+      </component>
+      <component id="b7b3" class="javax.swing.JButton" binding="limpiarButton" default-binding="true">
+        <constraints>
+          <grid row="7" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-8231745"/>
+          <font name="DecoType Naskh" size="20" style="1"/>
+          <text value="Limpiar"/>
+        </properties>
+      </component>
+      <grid id="bdee" binding="panelInstrucciones" layout-manager="GridLayoutManager" row-count="6" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="8" column="0" row-span="1" col-span="3" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-533585"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="d97a4" class="javax.swing.JLabel" binding="lbInstrucciones">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-533585"/>
+              <foreground color="-16777216"/>
+              <text value="Indicaciones:"/>
+            </properties>
+          </component>
+          <component id="aba28" class="javax.swing.JLabel" binding="lbPasos1">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-533585"/>
+              <foreground color="-16777216"/>
+              <text value="1.- Primero teclee el número."/>
+            </properties>
+          </component>
+          <component id="84ed3" class="javax.swing.JLabel" binding="lbPaso2">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-533585"/>
+              <foreground color="-16777216"/>
+              <text value="2.- Después de click en el botón de la operación del que desea realizar."/>
+            </properties>
+          </component>
+          <component id="45278" class="javax.swing.JLabel" binding="lbPaso3">
+            <constraints>
+              <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-533585"/>
+              <foreground color="-16777216"/>
+              <text value="3.- Para el botón ^ primero teclear el número que desea "/>
+            </properties>
+          </component>
+          <component id="3bd10" class="javax.swing.JLabel" binding="lbPaso4">
+            <constraints>
+              <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-533585"/>
+              <foreground color="-16777216"/>
+              <text value="obtener la potencia, después dar click al botón y despues teclear la potencia. Ejemplo-&gt; 39^2."/>
+            </properties>
+          </component>
+          <component id="eb663" class="javax.swing.JLabel" binding="lbPasosFinal">
+            <constraints>
+              <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-533585"/>
+              <foreground color="-16777216"/>
+              <text value="Finalmente oprimir el boton de igual."/>
+            </properties>
+          </component>
+          <component id="d8eb9" class="javax.swing.JLabel" binding="lbNota">
+            <constraints>
+              <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-533585"/>
+              <foreground color="-16777216"/>
+              <text value="Nota:"/>
+            </properties>
+          </component>
+          <component id="6a6af" class="javax.swing.JLabel" binding="lbNotaFinal">
+            <constraints>
+              <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-533585"/>
+              <foreground color="-16777216"/>
+              <text value="El botón igual solo es para la potencia."/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <component id="3983b" class="javax.swing.JButton" binding="igualbutton1">
+        <constraints>
+          <grid row="7" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-7422098"/>
+          <font name="DecoType Naskh" size="20" style="1"/>
+          <text value="="/>
+        </properties>
+      </component>
+      <component id="90586" class="javax.swing.JButton" binding="menosbutton1">
+        <constraints>
+          <grid row="7" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-4251074"/>
+          <font name="DecoType Naskh" size="20" style="1"/>
+          <text value="-"/>
+        </properties>
+      </component>
+      <component id="17642" class="javax.swing.JButton" binding="regresarInicioButton" default-binding="true">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-13686337"/>
+          <text value="Regresar Inicio"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>

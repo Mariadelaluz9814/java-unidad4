@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="LibreriaProductoCliente">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../LibreriaProductoCliente/out/artifacts/LibreriaProductoCliente_jar/LibreriaProductoCliente.jar!/" />
+      <root url="jar://$APPLICATION_HOME_DIR$/lib/forms_rt.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
